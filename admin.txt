@@ -1,0 +1,47 @@
+USUARIO:
+http://localhost:8080/usuario
+{
+	"idUsuario":"",
+	"documento":"",
+	"nombre":"",
+	"apellido":"",
+	"telefono":"",
+	"correo":"",
+	"rol":""
+}
+___________________________
+ADMINISTRADOR:
+http://localhost:8080/administrador
+{
+	"idAdmin":"",
+	"idUsuario":""
+}
+___________________________
+RESIDENTE:
+http://localhost:8080/residente
+{
+	"idResidente":"",
+	"idUsuario":""
+}
+___________________________
+APARTAMENTO:
+http://localhost:8080/apartamento
+{
+	"idApartamento":"",
+	"descripcion":"",
+	"numero":"",
+	"serv_basicos":"",
+	"serv_secundarios":""
+}
+___________________________
+FACTURA:
+http://localhost:8080/factura
+{
+	"idFactura":"",
+	"fechaFactura":"",
+	"fechaPago":"",
+	"fechaFinalPago":"",
+	"idResidente":"",
+	"idAdmin":"",
+	"idApartamento":""
+}
